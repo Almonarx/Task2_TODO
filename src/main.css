@@ -1,0 +1,54 @@
+#my-todo {
+  margin-left: auto;
+  margin-right: auto;
+  background: #bbfff5;
+  padding: 5px;
+  border: 2px solid #4f51ff;
+  height: 540px;
+  width: 400px;
+}
+
+ul {
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #000;
+  height: 380px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.text {
+  height: 60px;
+  width: 320px;
+}
+
+input{
+  border-radius: 7px;
+}
+
+.btn {
+  position: absolute;
+  height: 68px;
+  width: 70px;
+  margin-left: 2px;
+}
+
+input:hover {
+  transition: 1s;
+  transform: scale(1.1, 1.1);
+}
+
+p {
+  font-size: x-small;
+  margin: 0;
+  padding: 0;
+}
+
+.cheked span{
+  text-decoration: line-through;
+  background: gray;
+}
+
+.inProgress textArea {
+  height: 15px;
+}
